@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cal.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h4>Simple Calculator</h4>
+        <div id="display">
+            <div class="show1" id="show1"></div>
+            <div class="show2" id="show2"></div>
+        </div>
+        <div class="press">
+            <div class="btn">
+                <button class="row_1" onclick="clr()">AC</button>
+                <button class="row_1" onclick="cal('-')">+/-</button>
+                <button class="row_1" onclick="percentage()">%</button>
+                <button class="row_1" onclick="cal('/')">&divide;</button>
+            </div>
+            <div class="btn">
+                <button class="row_2" onclick="cal(7)">7</button>
+                <button class="row_2" onclick="cal(8)">8</button>
+                <button class="row_2" onclick="cal(9)">9</button>
+                <button class="row_2" onclick="cal('*')">&times;</button>
+            </div>
+            <div class="btn">
+                <button class="row_3" onclick="cal(4)">4</button>
+                <button class="row_3" onclick="cal(5)">5</button>
+                <button class="row_3" onclick="cal(6)">6</button>
+                <button class="row_3" onclick="cal('-')">-</button>
+            </div>
+            <div class="btn">
+                <button class="row_4" onclick="cal(1)">1</button>
+                <button class="row_4" onclick="cal(2)">2</button>
+                <button class="row_4" onclick="cal(3)">3</button>
+                <button class="row_4" onclick="cal('+')">+</button>
+            </div>
+            <div class="btn">
+                <button class="row_5" onclick="Del()">Del</button>
+                <button class="row_5" onclick="cal(0)">0</button>
+                <button class="row_5" onclick="cal('.')">.</button>
+                <button class="row_5" onclick="answer()">=</button>
+            </div>
+        </div>
+        <h6>iphone calculator by Abass</h6>
+    </div>
+
+
+
+<script src="./cal.js"></script>
+</body>
+</html>
